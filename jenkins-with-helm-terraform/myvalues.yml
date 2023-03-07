@@ -1,0 +1,7 @@
+controller:
+  serviceType: LoadBalancer
+
+persistence:
+  storageClass: efs
+  size: "5Gi"
+  accessMode: "ReadWriteMany"
